@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
                 r = Integer.parseInt(textview.getText().toString());
 
                 r=Fno-Sno;
-                setContentView(r);
+                textview.setText(String.valueOf(r));
 
 
             }

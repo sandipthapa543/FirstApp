@@ -42,6 +42,13 @@ public class DashBoardActivity extends AppCompatActivity implements View.OnClick
                 Intent ints =new Intent(DashBoardActivity.this,MainActivity.class);
                 startActivity(ints);
 
+                if(v.getId()==(R.id.btnctof)){
+
+                    Intent intis =new Intent(DashBoardActivity.this,MainActivity.class);
+                    startActivity(intis);
+
+                }
+
             }
         }
     }
